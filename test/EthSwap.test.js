@@ -17,21 +17,21 @@ contract('EthSwap', ([deployer, investor]) => {
     before(async () => {
       token = await Token.new()
       ethSwap = await EthSwap.new(token.address)
-      // Transfer all tokens to EthSwap (1 million)
+      // Transfer all tokens to Swap (1 million)
       await token.transfer(ethSwap.address, tokens('1000000'))
     })
   
     describe('Token deployment', async () => {
       it('contract has a name', async () => {
         const name = await token.name()
-        assert.equal(name, 'DApp Token')
+        assert.equal(name, 'Bagel Token')
       })
     })
   
-    describe('EthSwap deployment', async () => {
+    describe('Swap deployment', async () => {
       it('contract has a name', async () => {
         const name = await ethSwap.name()
-        assert.equal(name, 'EthSwap Instant Exchange')
+        assert.equal(name, 'Instant Exchange')
       })
   
       it('contract has tokens', async () => {
