@@ -2,7 +2,7 @@
 
 Simple instant ERC-20 exchange between ETH and BGL and vice versa.
 
-**Dependencies:** <bd>
+**Dependencies:** <br>
 Node.js: https://nodejs.org/en/ <br>
 Ganache (to play around): https://www.trufflesuite.com/ganache <br>
 Truffle: https://www.trufflesuite.com/ <br>
