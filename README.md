@@ -17,6 +17,11 @@ Node.js: https://nodejs.org/en/ <br>
 Ganache (to play around): https://www.trufflesuite.com/ganache <br>
 Truffle: https://www.trufflesuite.com/ <br>
 Metamask or any other common wallet.
+Chai (for testing)
+Web3.js 
+
+
+
 
 
 ## Running
