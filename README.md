@@ -23,5 +23,16 @@ Metamask or any other common wallet.
 1. Make sure all dependencies are installed
 2. run
 `npm install`
-3. 
+3. Open the command prompt, go to the directory of the project and run `truffle migrate`
+4. In the project terminal, run `npm run start`
+
+
+## Testing
+1. Make sure truffle migration has been done properly
+2. Open the command prompt, go to the direcory of the project and run  `truffle test`
+
+If you want to run transactions from the command line itself, use `truffle console`. 
+Feel free to play around with the code, but make sure to run `truffle migrate --reset` every time.
+
+
 
