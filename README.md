@@ -19,3 +19,9 @@ Truffle: https://www.trufflesuite.com/ <br>
 Metamask or any other common wallet.
 
 
+## Running
+1. Make sure all dependencies are installed
+2. run
+`npm install`
+3. 
+
