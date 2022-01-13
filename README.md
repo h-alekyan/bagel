@@ -1,4 +1,4 @@
-# Bagel - Instant ERC-20 Crypto Exchange
+# ![bagel](https://i.ibb.co/smc1pss/favicon-32x32.png) Bagel - Instant ERC-20 Crypto Exchange
 
 Simple instant ERC-20 exchange between ETH and BGL and vice versa.
 
